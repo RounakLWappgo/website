@@ -1,0 +1,424 @@
+body{
+  overflow-x: hidden;
+}
+
+
+#navbar{
+  height: 120px;
+  transition:height 2s;
+}
+.main-carousel {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .main-carousel2 {
+    height: 50vh;
+    min-height: 350px;
+  
+  }
+  .carousel-caption2 {
+    position: absolute;
+    right: 15%;
+    bottom: 50%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    text-align: center;
+}
+  .carousel-item-new {
+    height: 30vh;
+    width: auto;
+    right: 0;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 325px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+  .carousel-item-new2 {
+ 
+ height: 300px;
+ width: auto;
+ min-width: 300px;
+    right: 0;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.carou{
+   width: 100%;
+    margin-top: -90px;
+    display: inline-block;
+}
+.carou2{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+}
+  .carousel-caption{
+      z-index: 99;
+  }
+  .blr{
+      height: 100vh;
+      background-color: black;
+      opacity: 0.6;
+  }
+
+  .about{
+     
+      margin-top: 150px;
+      margin-bottom: 150px;
+  }
+  .about2{
+  
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+  .about p{
+      margin-top: 20px;
+      display: inline-block;
+  }
+  .ckeckit-btn{
+    width: 200px;
+  }
+  
+.portfolio{
+    background-color: #f4f4f4;
+}
+
+
+.progress {
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px;
+    background-color: white;
+    
+}
+
+
+
+.progress .title {position: relative;z-index: 100; left: 30%;}
+
+.progress .overlay {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  
+}
+
+.progress .left, .progress .right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid gray;
+    border-radius: 100px 0px 0px 100px;
+    border-right: 0;
+    transform-origin: right;
+}
+
+.progress .left {animation: load1 1s linear forwards;}
+
+.progress:nth-of-type(2) .right, .progress:nth-of-type(3) .right {animation: load2 .5s linear forwards 1s;}
+
+.progress:last-of-type .right, .progress:first-of-type .right {animation: load3 .8s linear forwards 1s;}
+
+@keyframes load1 {
+    0% {transform: rotate(0deg);}
+
+    100% {transform: rotate(180deg);}
+}
+
+@keyframes load2 {
+    0% {z-index: 100;transform: rotate(180deg);}
+
+    100% {z-index: 100;transform: rotate(270deg);}
+}
+
+@keyframes load3 {
+    0% {z-index: 100;transform: rotate(180deg);}
+
+    100% {
+        z-index: 100;transform: rotate(315deg);}
+}
+
+.carou-indicators{
+    bottom: 0px;
+   
+}
+.carou-indicator{
+    bottom: 0px;
+   
+}
+.carou-indicators .active,.carou-indicator .active {
+    background-color: black !important;
+}
+
+.indicator-icon{
+        background-color: gray !important;
+        border-radius: 50%;
+        height: 10px !important;
+        width: 10px !important;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #0057f5;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100%;
+    width: 40%;
+  }
+  
+
+  .hero-form{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .hero-inner {
+    display: flex;
+    
+    
+    max-width: 900px;
+    margin: auto;
+  }
+  
+
+  
+  .hero-inner p,
+  .hero h2 {
+    color: #fff;
+  }
+  
+  .hero-button {
+    background: #fff;
+    color: #444;
+    border: 0;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  .hero-email-input {
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  
+  .hero-form-submit {
+      cursor: pointer;
+    background-color: black;
+    color: #fff;
+    margin-left: -5px;
+    border: none;
+    padding: .5rem 2rem;
+    margin-top: 0.5rem;
+  }
+.all-port{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f4f4f4;
+}
+  .txt-port h1{
+    font-size: 30px;
+  }
+
+  .all-port .btn{
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .news{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .news-head{
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+  .news .card .card-body{
+    padding-left: 0;
+  }
+
+  .news .card .card-body .card-title{
+    font-size: 15px;
+  }
+
+  .news .card .card-body .card-text{
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .parallex-2{
+    background-image: url(img/16.jpg);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .parallex-2 i{
+    font-size: 30px;
+  }
+
+  .parallex-2 .name{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    transform: rotate(-10deg);
+  }
+  .parallex-3{
+    background-image: url(img/171.jpg);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+.parallex-3 i{
+  font-size: 70px;
+}
+  .count-text{
+    font-size: 50px;
+  }
+.chooseus-icon .card i{
+  font-size: 60px;
+}
+.purchase h1{
+  font-size: 25px;
+}
+
+.purchase-btn{
+  background-color: black !important;
+  color: white;
+  font-size: 15px;
+  width: 150px !important;
+}
+
+.map-section{
+
+  margin-bottom: 100px;
+}
+.about-txt{
+  font-size: 15px;
+}
+
+.company ul li {
+  list-style: none;
+  text-align: left;
+  line-height: 2;
+  font-size: 15px;
+}
+
+.company ul{
+  padding-left: 0;
+}
+
+.contactus{
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #f4f4f4;
+}
+.past-work .image{
+  overflow: hidden;
+}
+
+.past-work img{
+  transition: all .2s ease-in-out;
+}
+
+.past-work img:hover{
+  opacity: .3;
+  transform: scale(1.3);
+}
+.news img{
+  transition: all ease-in-out 200ms;
+}
+
+.news img:hover{
+  opacity: .5;
+}
+
+
+.carousel-fade .carousel-inner .carousel-item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .carousel-item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: .5;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.modal-dialog {
+  
+      max-width: 800px;
+ 
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+  height:100%
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
